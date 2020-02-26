@@ -268,7 +268,8 @@ figure {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1024px;
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -284,7 +285,24 @@ figure {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  .header {
+    display: block;
+    height: auto;
+    padding-bottom: 1px;
+  }
+  
+  .header ol {
+    display: block;
+  }
+
+  .header ol li {
+    text-align: center;
+  }
+
+  .logo {
+    text-align: center;
+  }
 
 }
 
